@@ -1,10 +1,68 @@
 body {
-    background-color: blue;
+    
 }
 
 h1 {
-    color: chartreuse;
+    color: orange;
     margin-left: 150px;
     text-align: center;
     font-size: 100px;
+    font-family: monospace;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 0px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: orange;
+  }
+
+  .asennuskuvabox {
+    border-style: solid;
+    width: 300px;
+    height: 50px;
+    background-color: orange;  
+    font-family: monospace;
+    font-size: xx-large;
+    text-align: center;
+    margin:0 auto 10px;
+    text-align: top;
+    
+
+     
+  }
+
+  .lähetteetbox {
+      border-style: solid;
+      width: 300px;
+      height: 50px;
+      background-color: orange;
+      font-family: monospace;
+      font-size: xx-large;
+      text-align: center;
+      margin:0 auto 10px
+      
+  }
